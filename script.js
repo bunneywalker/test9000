@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     
     if (document.getElementById("coursesBody")) {
-        fetch("https://bunneywalker.github.io/App-dev/coursestaken.json")
+        fetch("https://bunneywalker.github.io/test9000/coursestaken.json")
             .then(response => response.json())
             .then(data => {
                 displayCourses(data.courses);
